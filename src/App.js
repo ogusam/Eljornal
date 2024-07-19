@@ -1,6 +1,6 @@
 
 import './App.css';
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {HashRouter, Routes, Route} from "react-router-dom"
 //import Dashboard from './component/pages/Dashboard';
 import LoginForm from './component/pages/LoginForm';
 import ForgetPassword from './component/pages/ForgetPassword';
@@ -22,7 +22,7 @@ function App() {
       
       <ToastContainer theme='colored' position='top-center'></ToastContainer>
 
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
 
           <Route path="/login" element={<LoginForm/>}/>
@@ -38,7 +38,7 @@ function App() {
           <Route path='transactions' element={<Transactions/>}/>
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       
     </div>
   );
