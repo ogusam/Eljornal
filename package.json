@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://ogusam.github.io/login",
+  "homepage": "https://ogusam.github.io/Eljornal/login",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
