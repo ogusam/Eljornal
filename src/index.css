@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.trigger{
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+
+}
+
+.trigger:hover{
+  color:aqua
+}
+.logo{
+  height: 64px;
+  margin: 0;
+  background:darkgray;
+}
+.ant-layout{
+  min-height: 100vh;
+}
+.sm-logo{
+  display: none;
+}
+ .ant-layout-sider-collapsed .sm-logo{
+  display: block;
+}
+
+.ant-layout-sider-collapsed .lg-logo{
+  display: none;
+}
+
+.ant-menu-title-content{
+  font-size: 16px;
+}
+.ant-layout-header h5{
+  line-height: 30px;
+}
+.ant-layout-header p{
+  line-height: 20px;
+}

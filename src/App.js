@@ -1,23 +1,45 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+//import Dashboard from './component/pages/Dashboard';
+import LoginForm from './component/pages/LoginForm';
+import ForgetPassword from './component/pages/ForgetPassword';
+import Mainlayout from './component/Mainlayout';
+import Dashboard from './component/pages/Dashboard';
+import ResetPassword from './component/pages/ResetPassword';
+import AddUser from './component/pages/user/AddUser';
+import Transactions from './component/pages/Transactions';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ViewUsers from './component/pages/user/ViewUsers';
+import EdithUser from './component/pages/EdithUser';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <ToastContainer theme='colored' position='top-center'></ToastContainer>
+
+      <BrowserRouter>
+        <Routes>
+
+          <Route path="/login" element={<LoginForm/>}/>
+          <Route path='/forgotpassword' element={<ForgetPassword/>}/>
+          <Route path='reset-password' element={<ResetPassword/>}/>
+          <Route path="/admin" element={<Mainlayout/>}>
+          <Route index element={<Dashboard/>}/>
+          <Route path='add-user' element={<AddUser/>}/>
+          <Route path='view-users' element={<ViewUsers/>}/>
+        
+          <Route path='view-users/update' element={<EdithUser/>}/>
+
+          <Route path='transactions' element={<Transactions/>}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }
