@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 //import Link from 'antd/es/typography/Link';
 
-export const Transactions = () => {
+ const Transactions = () => {
   const [transactionlist, transactionupdate]=useState([]);
   useEffect(()=>{
     loadusers()

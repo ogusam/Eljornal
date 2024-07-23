@@ -1,122 +1,90 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Juliet Oma",
-      "email": "julie@yahoo.com",
-      "number": "08100000000"
-    },
-    {
-      "id": "0ee3",
-      "fname": "samuel",
-      "lname": "ogu",
-      "password": "Password",
-      "email": "ogusam32@gmail.com",
-      "phone": "07045535148",
-      "role": "admin"
-    },
-    {
-      "id": "samuelogu89@yahoo.com",
-      "fname": "samuel",
-      "lname": "ogu",
-      "password": "12345",
-      "phone": "07045535148",
-      "role": "admin"
-    },
-    {
-      "id": "3b77",
-      "firstName": "Samuel",
-      "lastName": "Ogu",
-      "email": "ogusam32@gmail.com",
-      "state": "Abia",
-      "local_govt": "",
-      "contact": 7045535148,
-      "password": "Kamso2021",
-      "address1": "Aba, abia state,Nigeria",
-      "address2": "hhjhkkkkhgddd"
-    },
-    {
-      "id": "8aa0",
-      "fname": "sam",
-      "lname": "ogu",
-      "password": "12345",
-      "email": "ogusam32@gmail.com",
-      "phone": "07038827312",
-      "role": "admin"
-    },
-    {
       "id": "ogusam32@gmail.com",
-      "fname": "samuel",
-      "lname": "ogu",
-      "password": "123456",
-      "phone": "07045535148",
-      "role": "user"
-    },
-    {
-      "id": "ogusam32@gmail.com",
-      "firstName": "samuel",
-      "lastName": "ogu",
+      "firstName": "john",
+      "lastName": "peter",
       "password": "12345",
       "phone": "07038827312",
       "role": "admin"
     },
     {
       "id": "abc@yahoo.com",
-      "firstName": "samuel",
+      "firstName": "sam",
       "lastName": "ogu",
       "password": "pppppppp",
       "phone": "07045535148",
       "role": "admin"
-    }
-  ],
-  "roleaccess": [
-    {
-      "role": "user",
-      "name": "Juliet Oma",
-      "email": "julie@yahoo.com",
-      "number": "08100000000"
     },
     {
-      "role": "admin",
-      "name": "Juliet Oma",
-      "email": "julie@yahoo.com",
-      "number": "08100000000"
+      "id": "joe@yahoo.com",
+      "firstName": "joe",
+      "lastName": "Biden",
+      "password": "Password12345.",
+      "phone": "07030000000",
+      "role": "user"
+    },
+    {
+      "id": "chyke121@yahoo.com",
+      "firstName": "samuel",
+      "lastName": "ogu",
+      "password": "Password1",
+      "phone": "07038827312",
+      "role": "user"
+    },
+    {
+      "id": "samuelogu89@yahoo.com",
+      "firstName": "samuel",
+      "lastName": "ogu",
+      "password": "pppppppp",
+      "phone": "07045535148",
+      "role": "user"
+    },
+    {
+      "id": "ogusam32@gmail.com",
+      "firstName": "sam",
+      "lastName": "ogu",
+      "password": "123456789",
+      "phone": "07030000000",
+      "role": "user"
     }
   ],
-  "transaction":[
-   {
-    "MTI": "0200",
-    "amount": 1000,
-    "terminalId": "2WKL0775",
-    "responseCode": "00",
-    "responseDescription": "Approved..",
-    "PAN": "539983****4966",
-    "STAN": "224523",
-    "authCode": "217664",
-    "transactionTime": "2024-07-07T21:45:22.000Z",
-    "reversal": false,
-    "merchantId": "2302BA000009611",
-    "merchantName": "ELNEXU-WAKEEL NG",
-    "merchantAddress": "ELNEXU-WAKEEL NG",
-    "rrn": "240707224523",
-    "metadata": null
-  },
-  {
-    "MTI": "0200",
-    "amount": 2000,
-    "terminalId": "2WKL0775",
-    "responseCode": "00",
-    "responseDescription": "Approved..",
-    "PAN": "539983****4966",
-    "STAN": "224523",
-    "authCode": "217664",
-    "transactionTime": "2024-07-07T21:45:22.000Z",
-    "reversal": false,
-    "merchantId": "2302BA000009611",
-    "merchantName": "ELNEXU-WAKEEL NG",
-    "merchantAddress": "ELNEXU-WAKEEL NG",
-    "rrn": "240707224523",
-    "metadata": null
-  }
-]
+  "transaction": [
+    {
+      "MTI": "0200",
+      "amount": 1000,
+      "terminalId": "2WKL0775",
+      "responseCode": "00",
+      "responseDescription": "Approved..",
+      "PAN": "539983****4966",
+      "STAN": "224523",
+      "authCode": "217664",
+      "transactionTime": "2024-07-07T21:45:22.000Z",
+      "reversal": false,
+      "merchantId": "2302BA000009611",
+      "merchantName": "ELNEXU-WAKEEL NG",
+      "merchantAddress": "ELNEXU-WAKEEL NG",
+      "rrn": "240707224523",
+      "metadata": null,
+      "id": "7db3"
+    },
+    {
+      "MTI": "0200",
+      "amount": 2000,
+      "terminalId": "2WKL0775",
+      "responseCode": "00",
+      "responseDescription": "Approved..",
+      "PAN": "539983****4966",
+      "STAN": "224523",
+      "authCode": "217664",
+      "transactionTime": "2024-07-07T21:45:22.000Z",
+      "reversal": false,
+      "merchantId": "2302BA000009611",
+      "merchantName": "ELNEXU-WAKEEL NG",
+      "merchantAddress": "ELNEXU-WAKEEL NG",
+      "rrn": "240707224523",
+      "metadata": null,
+      "id": "7428"
+    }
+  ]
 }

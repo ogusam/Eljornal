@@ -10,6 +10,12 @@ import { CiMenuBurger } from "react-icons/ci";
 import { IoReceiptOutline } from "react-icons/io5";
 import { MdTerminal } from "react-icons/md";
 import { CiLogout } from "react-icons/ci";
+import { FaUsersViewfinder } from "react-icons/fa6";
+import { RiLockPasswordLine } from "react-icons/ri";
+import { AiOutlineAudit } from "react-icons/ai";
+
+import { MdOutlineCreditCard } from "react-icons/md";
+
 
 
 
@@ -74,7 +80,7 @@ const Mainlayout= () => {
             },
             {
                 key: 'user',
-                icon: <UserOutlined />,
+                icon: <FaUsersViewfinder />,
                 label: 'User Management',
                 children:[
                     {
@@ -128,17 +134,17 @@ const Mainlayout= () => {
               },
               {
                 key: 'Credit-request',
-                icon: <UserOutlined />,
+                icon: <MdOutlineCreditCard /> ,
                 label: 'Credit Request',
               },
               {
                 key: 'Audit',
-                icon: <UserOutlined />,
+                icon: <AiOutlineAudit />,
                 label: 'Audit',
               },
               {
                 key: 'Passowrd-reset',
-                icon: <UserOutlined />,
+                icon: <RiLockPasswordLine />,
                 label: 'Change Password',
               },
               {
