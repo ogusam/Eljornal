@@ -2,6 +2,7 @@ import {  useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 //import {  useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import TopNav from "../TopNav";
 
 
 const LoginForm = () => {
@@ -48,6 +49,8 @@ sessionStorage.clear();
         return result;
     }
     return (
+      <div>
+        <TopNav/>
         <div className="row">
             <div className="offset-lg-3 col-lg-6" style={{ marginTop: '100px' }}>
                 <form onSubmit={ProceedLogin} className="container">
@@ -72,6 +75,7 @@ sessionStorage.clear();
                     </div>
                 </form>
             </div>
+        </div>
         </div>
     );
 }
